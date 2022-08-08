@@ -102,10 +102,10 @@ for (let i = 0; i <= n; i++) {
 // Exercise 5
 console.log("\n\nEXERCISE 5:\n==========\n");
 
-let fizzDivisor = Math.round(Math.random() * 10  + 1);
-let buzzDivisor = Math.round(Math.random() * 10  + 1);
-let end = Math.round(Math.random() * 1000 +1);
-let start = Math.round(Math.random() * 10 + 1);
+let fizzDivisor = Math.round(Math.random() * 9+ 1);
+let buzzDivisor = Math.round(Math.random() * 9 + 1);
+let end = Math.round(Math.random() * 999 +1);
+let start = Math.round(Math.random() * 9 + 1);
 
 
 while (start <= end) {
